@@ -1,11 +1,11 @@
-//🟢Setup Procedure - Runs Once to Set The Canvas
+                                                                                                                                                   //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
     background(255,255,255,200);
 }
 
 //🎯Varaible Declarations Go Here
-var eyeSize = 8;
+var eyeSize = 25;
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
@@ -15,7 +15,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   
-  ellipse(150, 70, 60, 120);  // left ear
+  ellipse(150, 70, 60, 200);  // left ear
   ellipse(240, 70, 60, 120);  // right ear
 
   ellipse(200, 170, 150, 150);    // face
@@ -28,7 +28,7 @@ void draw(){
 
   noFill();
   rect(185, 200, 15, 10); // left tooth
-  rect(200, 200, 15, 10); // right tooth
+  rect(200, 200, 15, 30); // right tooth
   
 
 }
